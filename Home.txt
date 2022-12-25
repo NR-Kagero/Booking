@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	body {
+		background-image: url('6.jpg');
+		background-size: 100% 100%;
+	}
+	ul{
+		background-color:black;
+		height:50px;
+		width:auto;
+		text-indent:10px;
+		opacity: 0.5;
+		padding: 10px 10px;
+		
+	}
+	li{
+		display:inline-block;
+		float:right;
+	}
+	a{
+		color:white;
+		font-family:Century Schoolbook;
+		font-size: 25px;
+		text-decoration:none;
+	}
+	a:hover{
+		color:crimson;
+	}
+	button {
+		type:button;
+		background-color: Chocolate;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-color : black;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border:none;
+	}
+	.button1{
+		margin: 50px 0px 0px 800px;
+	}
+	.button2{
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.button1:hover,.button2:hover{
+		background-color:gray;
+	}
+
+	h1{
+		color: #101010;
+		font-size: 80px;
+		font-family: Freestyle Script;
+		position:center;
+		text-align:center;
+		margin-top:300px;
+	}
+	p{
+		color: Brown;
+		font-size: 60px;
+		font-family: Century Schoolbook;
+		text-align:center;
+	}
+	
+
+</style>
+<title>Page Title</title>
+</head>
+<body>
+	<nav>
+		<ul>
+		<li><a href="#">Blog</a>
+		<li><a href="#">Menu</a>
+		<li><a href="#">Gallery</a>
+		<li><a href="#">Contacts</a>
+		<li><a href="#">About</a>
+		<li><a href="#">Home</a>
+		</ul>
+	</nav>
+	<h1>French Restaurant</h1>
+	<p>We’re the best restaurant in town</p>
+	<button class="button button1">Learn More</button>
+	<a href="Booking.html">
+	<button class="button button2">Book A Visit</button>
+	<a>
+</body>
+</html>

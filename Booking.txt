@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+	body {
+		background-image: url('5.jpg');
+		background-size: 100% 100%;
+	}
+	form{
+		margin: 300px 0px 0px 750px;
+	}
+	.f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8{
+		font-size: 20px;
+		color:black;
+	}
+	.b1,.b2,.b3,.b4,.b5{
+		border: none;
+		background-color:gray;
+		font-size: 20px;
+	}
+	.t2:hover{
+		background-color:green;
+		
+	}
+	.t2{
+		border:none;
+		padding: 10px 10px;
+		text-align: center;
+		margin: 0px 0px 0px 100px;
+		background-color:Brown;
+	}
+	.o1:hover{
+		background-color:green;
+		}
+	.o1{
+		border:none;
+		padding: 10px 10px;
+		text-align: center;
+		background-color:Brown;
+		margin: 100px 0px 0px 850px;
+		}
+</style>
+<title>Page Title</title>
+</head>
+<body>
+<form>
+  <label class="form f1" for="fname">First name:</label><br>
+  <input class="form b1" type="text" id="fname" name="fname"><br>
+  <label class="form f2" for="lname">Last name:</label><br>
+  <input class="form b2" type="text" id="lname" name="lname"><br>
+  <label class="form f3" for="time">Time:</label><br>
+  <input class="form b3" type="text" id="time" name="time"><br>
+  <label class="form f4" for="numperson">Number of persons:</label><br>
+  <input class="form b4" type="text" id="numperson" name="numperson"><br>
+  <label class="form f5" for="Date">Date:</label><br>
+  <input class="form b5" type="text" id="Date" name="Date"><br>
+  <label class="form f6" >Paying Methode:</label><br>
+  <input type="radio" id="Cash" name="Cash">
+  <label class="form f7" for="Cash">Cash</label><br>
+  <input type="radio" id="Visa" name="Visa">
+  <label class="form f8" for="Visa">Visa</label><br>
+  <input class="form t2" type="submit" value="Submit">
+  </form>
+  <a href="Home.html">
+  <button class="button o1">Return</button>
+  <a>
+</body>
+</html>
+	
